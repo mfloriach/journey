@@ -1,0 +1,1369 @@
+{
+  "nodes": [
+    {
+      "url": "/",
+      "screenshot": "sitemap/shots/index.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "a47f88dd-2638-409c-8b59-24779e25214c",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:05 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "dcedee36-399a-43f4-ba8e-0e6452bcbd3f",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:05 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/arguments",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "e8a15972-53cc-4618-b1b3-bffeb7099da2",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:05 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"arguments\":[{\"id\":\"266101de-d1dc-448a-9545-0c2597425e6e\",\"title\":\"The City of Lost Children, audited\",\"description\":\"The City of Lost Children read against a structured audit of its story, characters, symbolism, themes, evidence, sources and competing interpretations.\",\"labels\":[\"Story\",\"Themes\",\"Symbolism\",\"Characters\",\"Filmmaking\"],\"createdAt\":\"2026-10-05T12:01:15.916Z\"},{\"id\":\"ab4b46b1-2e04-4d5c-874b-6d3bbe423356\",\"title\":\"Bitcoin, audited\",\"description\":\"Current reporting on Bitcoin and monetary systems, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Bitcoin\",\"Money\",\"Finance\",\"Technology\",\"Policy\"],\"createdAt\":\"2026-10-05T12:01:15.799Z\"},{\"id\":\"20b193c9-f423-4c0c-8ac7-0cc7cb57fe7c\",\"title\":\"Rick and Morty: Pilot, audited\",\"description\":\"The first episode introduces Rick, Morty and their family while establishing the show's central tension: extraordinary scientific freedom collides with ordinary family responsibilities.\",\"labels\":[\"Characters\",\"Family\",\"Science\",\"Humor\",\"Existentialism\"],\"createdAt\":\"2026-10-05T12:01:15.733Z\"},{\"id\":\"169a000b-29ab-445e-82c2-98d87f3c6142\",\"title\":\"Carbon border taxes, audited\",\"description\":\"Current reporting on climate and the economy, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Clima\",\"Economy\",\"Policy\",\"Science\",\"Trade\"],\"createdAt\":\"2026-10-05T12:01:15.413Z\"}],\"total\":4}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/arguments",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "8b825a99-5de9-4b27-9e7f-ce7617f43ea8",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:05 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"arguments\":[{\"id\":\"266101de-d1dc-448a-9545-0c2597425e6e\",\"title\":\"The City of Lost Children, audited\",\"description\":\"The City of Lost Children read against a structured audit of its story, characters, symbolism, themes, evidence, sources and competing interpretations.\",\"labels\":[\"Story\",\"Themes\",\"Symbolism\",\"Characters\",\"Filmmaking\"],\"createdAt\":\"2026-10-05T12:01:15.916Z\"},{\"id\":\"ab4b46b1-2e04-4d5c-874b-6d3bbe423356\",\"title\":\"Bitcoin, audited\",\"description\":\"Current reporting on Bitcoin and monetary systems, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Bitcoin\",\"Money\",\"Finance\",\"Technology\",\"Policy\"],\"createdAt\":\"2026-10-05T12:01:15.799Z\"},{\"id\":\"20b193c9-f423-4c0c-8ac7-0cc7cb57fe7c\",\"title\":\"Rick and Morty: Pilot, audited\",\"description\":\"The first episode introduces Rick, Morty and their family while establishing the show's central tension: extraordinary scientific freedom collides with ordinary family responsibilities.\",\"labels\":[\"Characters\",\"Family\",\"Science\",\"Humor\",\"Existentialism\"],\"createdAt\":\"2026-10-05T12:01:15.733Z\"},{\"id\":\"169a000b-29ab-445e-82c2-98d87f3c6142\",\"title\":\"Carbon border taxes, audited\",\"description\":\"Current reporting on climate and the economy, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Clima\",\"Economy\",\"Policy\",\"Science\",\"Trade\"],\"createdAt\":\"2026-10-05T12:01:15.413Z\"}],\"total\":4}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "deeef474-cc57-43f5-a7dc-895fb8fa458b",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:06 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"484f4ad8459d97b78bde32c0db31dc52\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 484f4ad8459d97b78bde32c0db31dc52\\nIssued At: 2026-10-10T11:20:06.536Z\\nExpiration Time: 2026-10-17T11:20:06.536Z\",\"expiresAt\":\"2026-10-10T11:30:06.536Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 484f4ad8459d97b78bde32c0db31dc52\\nIssued At: 2026-10-10T11:20:06.536Z\\nExpiration Time: 2026-10-17T11:20:06.536Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "8324cf3e-6a13-4718-918a-4d8abea3e83c",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:06 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [],
+      "states": [
+        {
+          "name": "Bitcoin",
+          "screenshot": "sitemap/shots/index-s0.png"
+        },
+        {
+          "name": "Clear filters",
+          "screenshot": "sitemap/shots/index-s1.png"
+        }
+      ]
+    },
+    {
+      "url": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e#modal-A-fairy-tale-built-around-stolen-dreams",
+      "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-modal-0.png",
+      "http": [],
+      "auth": [],
+      "states": []
+    },
+    {
+      "url": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "e10db140-96a4-4763-8cd8-6ffe0bbb99aa",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:21 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/arguments",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "6b2fb761-01f3-4ca1-958c-ee3c2549d9e4",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:21 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"arguments\":[{\"id\":\"266101de-d1dc-448a-9545-0c2597425e6e\",\"title\":\"The City of Lost Children, audited\",\"description\":\"The City of Lost Children read against a structured audit of its story, characters, symbolism, themes, evidence, sources and competing interpretations.\",\"labels\":[\"Story\",\"Themes\",\"Symbolism\",\"Characters\",\"Filmmaking\"],\"createdAt\":\"2026-10-05T12:01:15.916Z\"},{\"id\":\"ab4b46b1-2e04-4d5c-874b-6d3bbe423356\",\"title\":\"Bitcoin, audited\",\"description\":\"Current reporting on Bitcoin and monetary systems, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Bitcoin\",\"Money\",\"Finance\",\"Technology\",\"Policy\"],\"createdAt\":\"2026-10-05T12:01:15.799Z\"},{\"id\":\"20b193c9-f423-4c0c-8ac7-0cc7cb57fe7c\",\"title\":\"Rick and Morty: Pilot, audited\",\"description\":\"The first episode introduces Rick, Morty and their family while establishing the show's central tension: extraordinary scientific freedom collides with ordinary family responsibilities.\",\"labels\":[\"Characters\",\"Family\",\"Science\",\"Humor\",\"Existentialism\"],\"createdAt\":\"2026-10-05T12:01:15.733Z\"},{\"id\":\"169a000b-29ab-445e-82c2-98d87f3c6142\",\"title\":\"Carbon border taxes, audited\",\"description\":\"Current reporting on climate and the economy, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Clima\",\"Economy\",\"Policy\",\"Science\",\"Trade\"],\"createdAt\":\"2026-10-05T12:01:15.413Z\"}],\"total\":4}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "fcdfa0b2-0eef-49d2-9701-827d39d7e44b",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:21 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/arguments",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "824a1251-073e-4ec9-815e-8338044465b1",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:21 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"arguments\":[{\"id\":\"266101de-d1dc-448a-9545-0c2597425e6e\",\"title\":\"The City of Lost Children, audited\",\"description\":\"The City of Lost Children read against a structured audit of its story, characters, symbolism, themes, evidence, sources and competing interpretations.\",\"labels\":[\"Story\",\"Themes\",\"Symbolism\",\"Characters\",\"Filmmaking\"],\"createdAt\":\"2026-10-05T12:01:15.916Z\"},{\"id\":\"ab4b46b1-2e04-4d5c-874b-6d3bbe423356\",\"title\":\"Bitcoin, audited\",\"description\":\"Current reporting on Bitcoin and monetary systems, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Bitcoin\",\"Money\",\"Finance\",\"Technology\",\"Policy\"],\"createdAt\":\"2026-10-05T12:01:15.799Z\"},{\"id\":\"20b193c9-f423-4c0c-8ac7-0cc7cb57fe7c\",\"title\":\"Rick and Morty: Pilot, audited\",\"description\":\"The first episode introduces Rick, Morty and their family while establishing the show's central tension: extraordinary scientific freedom collides with ordinary family responsibilities.\",\"labels\":[\"Characters\",\"Family\",\"Science\",\"Humor\",\"Existentialism\"],\"createdAt\":\"2026-10-05T12:01:15.733Z\"},{\"id\":\"169a000b-29ab-445e-82c2-98d87f3c6142\",\"title\":\"Carbon border taxes, audited\",\"description\":\"Current reporting on climate and the economy, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Clima\",\"Economy\",\"Policy\",\"Science\",\"Trade\"],\"createdAt\":\"2026-10-05T12:01:15.413Z\"}],\"total\":4}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/content?id=266101de-d1dc-448a-9545-0c2597425e6e",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "e7368be9-9142-4db5-b266-466caae27f2a",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:21 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"argument\":{\"title\":\"The City of Lost Children, audited\",\"description\":\"The City of Lost Children read against a structured audit of its story, characters, symbolism, themes, evidence, sources and competing interpretations.\",\"labels\":[\"Story\",\"Themes\",\"Symbolism\",\"Characters\",\"Filmmaking\"]},\"reportingCard\":{\"title\":\"Reporting\",\"tabs\":[{\"id\":\"Story\",\"label\":\"Story\",\"order\":0,\"items\":[{\"id\":\"175b4910-5e74-4965-90d8-db9037ca6ae8\",\"title\":\"A fairy tale built around stolen dreams\",\"labels\":[\"Story\",\"Themes\"],\"type\":\"text\",\"author\":\"M. Laurent\",\"date\":\"2024-06-18\",\"authorAddress\":\"0x1111111111111111111111111111111111111111\",\"openCount\":52,\"paragraphs\":[{\"id\":\"3500e329-83cd-473e-b5cf-56105bd19f21\",\"text\":\"The City of Lost Children follows One, a powerful but childlike circus performer whose little brother Denrée is kidnapped. His search takes him into a strange industrial world populated by abandoned children, clones, thieves and other outsiders.\",\"auditItemIds\":[\"c5f66d5f-5809-4b2b-9bd6-acf841ff15a2\",\"232accb6-3f6c-4e0c-b429-4d3e4ab664db\",\"99ef7196-502a-464c-b7ab-cc64d583336e\",\"412f32f5-063c-4a79-a339-175b62e73eee\"]},{\"id\":\"3d742319-97cd-4262-850e-8aec7345efd7\",\"text\":\"The kidnapping is part of Krank's attempt to solve a personal problem: he cannot dream. He therefore steals children and attempts to extract their dreams, treating their inner lives as something that can be possessed.\",\"auditItemIds\":[\"f6763a3a-724e-4ecb-8d15-1eecdc83f78f\",\"06125ca0-5a2c-42f2-96e8-c6614d4fe487\",\"55dc540d-ec41-49fd-ac19-1a222d839603\"]},{\"id\":\"c5f66d5f-5809-4b2b-9bd6-acf841ff15a2\",\"text\":\"The narrative resembles a fairy tale, but its central conflict is unusually dark. Childhood becomes something vulnerable to exploitation, while dreams become a metaphor for imagination, identity and emotional freedom.\",\"auditItemIds\":[\"2cb9153b-ed5f-45f2-ac48-75f6ea9d6786\",\"ad37b470-7775-4f20-b465-1c490d2574a5\",\"cc152b65-37bc-48ea-9f6f-3efeaf148716\"]},{\"id\":\"cb1e2e3e-723f-4f0b-8b45-fe30b553f574\",\"text\":\"The search for Denrée gradually becomes a story about connection. One begins the journey looking for his brother, but the film repeatedly places isolated characters into relationships where cooperation becomes their main source of strength.\",\"auditItemIds\":[\"23ba1d5d-34c4-4482-9d5a-1892c5280aa9\",\"9eab726e-5608-4172-81a6-3d8d5bdc0e7e\",\"8016248b-edd2-42eb-9713-6f9a7e776b2c\"]}]},{\"id\":\"7e04da04-b6dc-4f9f-99a7-dfac20c47a5e\",\"title\":\"The children are victims, but not powerless\",\"labels\":[\"Story\",\"Characters\"],\"type\":\"text\",\"author\":\"M. Laurent\",\"date\":\"2024-08-05\",\"authorAddress\":\"0x2222222222222222222222222222222222222222\",\"openCount\":36,\"paragraphs\":[{\"id\":\"f43d5394-fc41-4e89-95db-ee19696c978c\",\"text\":\"The children are placed in an environment where adults exploit them, but the film does not portray them as completely passive. They communicate, cooperate and develop strategies for surviving the system around them.\",\"auditItemIds\":[\"23ba1d5d-34c4-4482-9d5a-1892c5280aa9\",\"1d73897a-4de5-4bd7-823a-3400dab89cac\"]},{\"id\":\"73c40dbf-d89c-43f7-a7fe-48bcedd7f049\",\"text\":\"This makes the film's treatment of childhood more complicated than a simple innocent-versus-evil story. Vulnerability exists alongside curiosity, intelligence and collective resistance.\",\"auditItemIds\":[\"9d0a45f3-8b41-4646-9e22-1904fc1a010c\",\"3fdad5a7-e9e8-4df5-bf9a-3d5164c62212\"]}]}]},{\"id\":\"Themes\",\"label\":\"Themes\",\"order\":0,\"items\":[{\"id\":\"175b4910-5e74-4965-90d8-db9037ca6ae8\",\"title\":\"A fairy tale built around stolen dreams\",\"labels\":[\"Story\",\"Themes\"],\"type\":\"text\",\"author\":\"M. Laurent\",\"date\":\"2024-06-18\",\"authorAddress\":\"0x1111111111111111111111111111111111111111\",\"openCount\":52,\"paragraphs\":[{\"id\":\"3500e329-83cd-473e-b5cf-56105bd19f21\",\"text\":\"The City of Lost Children follows One, a powerful but childlike circus performer whose little brother Denrée is kidnapped. His search takes him into a strange industrial world populated by abandoned children, clones, thieves and other outsiders.\",\"auditItemIds\":[\"c5f6\n…[truncated 50981 chars]"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/content?id=266101de-d1dc-448a-9545-0c2597425e6e",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "3ad746c7-3a22-4e88-86ca-fe924cebebd3",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:21 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"argument\":{\"title\":\"The City of Lost Children, audited\",\"description\":\"The City of Lost Children read against a structured audit of its story, characters, symbolism, themes, evidence, sources and competing interpretations.\",\"labels\":[\"Story\",\"Themes\",\"Symbolism\",\"Characters\",\"Filmmaking\"]},\"reportingCard\":{\"title\":\"Reporting\",\"tabs\":[{\"id\":\"Story\",\"label\":\"Story\",\"order\":0,\"items\":[{\"id\":\"175b4910-5e74-4965-90d8-db9037ca6ae8\",\"title\":\"A fairy tale built around stolen dreams\",\"labels\":[\"Story\",\"Themes\"],\"type\":\"text\",\"author\":\"M. Laurent\",\"date\":\"2024-06-18\",\"authorAddress\":\"0x1111111111111111111111111111111111111111\",\"openCount\":52,\"paragraphs\":[{\"id\":\"3500e329-83cd-473e-b5cf-56105bd19f21\",\"text\":\"The City of Lost Children follows One, a powerful but childlike circus performer whose little brother Denrée is kidnapped. His search takes him into a strange industrial world populated by abandoned children, clones, thieves and other outsiders.\",\"auditItemIds\":[\"c5f66d5f-5809-4b2b-9bd6-acf841ff15a2\",\"232accb6-3f6c-4e0c-b429-4d3e4ab664db\",\"99ef7196-502a-464c-b7ab-cc64d583336e\",\"412f32f5-063c-4a79-a339-175b62e73eee\"]},{\"id\":\"3d742319-97cd-4262-850e-8aec7345efd7\",\"text\":\"The kidnapping is part of Krank's attempt to solve a personal problem: he cannot dream. He therefore steals children and attempts to extract their dreams, treating their inner lives as something that can be possessed.\",\"auditItemIds\":[\"f6763a3a-724e-4ecb-8d15-1eecdc83f78f\",\"06125ca0-5a2c-42f2-96e8-c6614d4fe487\",\"55dc540d-ec41-49fd-ac19-1a222d839603\"]},{\"id\":\"c5f66d5f-5809-4b2b-9bd6-acf841ff15a2\",\"text\":\"The narrative resembles a fairy tale, but its central conflict is unusually dark. Childhood becomes something vulnerable to exploitation, while dreams become a metaphor for imagination, identity and emotional freedom.\",\"auditItemIds\":[\"2cb9153b-ed5f-45f2-ac48-75f6ea9d6786\",\"ad37b470-7775-4f20-b465-1c490d2574a5\",\"cc152b65-37bc-48ea-9f6f-3efeaf148716\"]},{\"id\":\"cb1e2e3e-723f-4f0b-8b45-fe30b553f574\",\"text\":\"The search for Denrée gradually becomes a story about connection. One begins the journey looking for his brother, but the film repeatedly places isolated characters into relationships where cooperation becomes their main source of strength.\",\"auditItemIds\":[\"23ba1d5d-34c4-4482-9d5a-1892c5280aa9\",\"9eab726e-5608-4172-81a6-3d8d5bdc0e7e\",\"8016248b-edd2-42eb-9713-6f9a7e776b2c\"]}]},{\"id\":\"7e04da04-b6dc-4f9f-99a7-dfac20c47a5e\",\"title\":\"The children are victims, but not powerless\",\"labels\":[\"Story\",\"Characters\"],\"type\":\"text\",\"author\":\"M. Laurent\",\"date\":\"2024-08-05\",\"authorAddress\":\"0x2222222222222222222222222222222222222222\",\"openCount\":36,\"paragraphs\":[{\"id\":\"f43d5394-fc41-4e89-95db-ee19696c978c\",\"text\":\"The children are placed in an environment where adults exploit them, but the film does not portray them as completely passive. They communicate, cooperate and develop strategies for surviving the system around them.\",\"auditItemIds\":[\"23ba1d5d-34c4-4482-9d5a-1892c5280aa9\",\"1d73897a-4de5-4bd7-823a-3400dab89cac\"]},{\"id\":\"73c40dbf-d89c-43f7-a7fe-48bcedd7f049\",\"text\":\"This makes the film's treatment of childhood more complicated than a simple innocent-versus-evil story. Vulnerability exists alongside curiosity, intelligence and collective resistance.\",\"auditItemIds\":[\"9d0a45f3-8b41-4646-9e22-1904fc1a010c\",\"3fdad5a7-e9e8-4df5-bf9a-3d5164c62212\"]}]}]},{\"id\":\"Themes\",\"label\":\"Themes\",\"order\":0,\"items\":[{\"id\":\"175b4910-5e74-4965-90d8-db9037ca6ae8\",\"title\":\"A fairy tale built around stolen dreams\",\"labels\":[\"Story\",\"Themes\"],\"type\":\"text\",\"author\":\"M. Laurent\",\"date\":\"2024-06-18\",\"authorAddress\":\"0x1111111111111111111111111111111111111111\",\"openCount\":52,\"paragraphs\":[{\"id\":\"3500e329-83cd-473e-b5cf-56105bd19f21\",\"text\":\"The City of Lost Children follows One, a powerful but childlike circus performer whose little brother Denrée is kidnapped. His search takes him into a strange industrial world populated by abandoned children, clones, thieves and other outsiders.\",\"auditItemIds\":[\"c5f6\n…[truncated 50981 chars]"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "0ba9e3b0-e72f-4f8e-81d5-ba38e684e370",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:22 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"9aedf58f1428dbf83e8e76baf648a73f\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 9aedf58f1428dbf83e8e76baf648a73f\\nIssued At: 2026-10-10T11:20:22.547Z\\nExpiration Time: 2026-10-17T11:20:22.547Z\",\"expiresAt\":\"2026-10-10T11:30:22.548Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 9aedf58f1428dbf83e8e76baf648a73f\\nIssued At: 2026-10-10T11:20:22.547Z\\nExpiration Time: 2026-10-17T11:20:22.547Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "3dea6c01-caba-4979-bb4e-686c9657e7e4",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:22 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [
+        "Create new report",
+        "Create contraargument"
+      ],
+      "states": [
+        {
+          "name": "Characters",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s0.png"
+        },
+        {
+          "name": "Clear filters",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s1.png"
+        },
+        {
+          "name": "Story (2)",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s2.png"
+        },
+        {
+          "name": "Attest this article on-chain",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s3.png"
+        },
+        {
+          "name": "Themes (3)",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s4.png"
+        },
+        {
+          "name": "Symbolism (3)",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s5.png"
+        },
+        {
+          "name": "Filmmaking (2)",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s6.png"
+        },
+        {
+          "name": "Characters (2)",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s7.png"
+        },
+        {
+          "name": "Contraargument (26)",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s8.png"
+        },
+        {
+          "name": "Attest this item on-chain",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s9.png"
+        },
+        {
+          "name": "Fallacies (25)",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s10.png"
+        },
+        {
+          "name": "Evidences (25)",
+          "screenshot": "sitemap/shots/debate-argument-266101de-d1dc-448a-9545-0c2597425e6e-s11.png"
+        }
+      ]
+    },
+    {
+      "url": "/debate/create",
+      "screenshot": "sitemap/shots/debate-create.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "42f538a6-9ddb-471d-8089-32ed43364bf3",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:47 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "9d165771-29d4-4358-a404-d6badb413abd",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:47 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "9bb8393d-1233-480c-b94f-52f29f6cb7c9",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:48 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"7df7bb4d0fbc1b565059c3a6c5fe4a66\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 7df7bb4d0fbc1b565059c3a6c5fe4a66\\nIssued At: 2026-10-10T11:20:48.573Z\\nExpiration Time: 2026-10-17T11:20:48.573Z\",\"expiresAt\":\"2026-10-10T11:30:48.573Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 7df7bb4d0fbc1b565059c3a6c5fe4a66\\nIssued At: 2026-10-10T11:20:48.573Z\\nExpiration Time: 2026-10-17T11:20:48.573Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "f818a563-1cdb-401c-bb12-efec7cff761f",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:48 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [
+        "Connect your wallet to create a report."
+      ],
+      "states": []
+    },
+    {
+      "url": "/debate/sources/create",
+      "screenshot": "sitemap/shots/debate-sources-create.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/sources/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "b7fabbe8-a56c-4f98-ba97-5d95662c75ff",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:49 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/sources/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "cef869e0-9913-4019-8aa2-504d53e0b495",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:49 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/sources/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "c57987b2-df52-4600-afb4-347ba241c26f",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:50 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"758f3262d42193071c0db52dc910ae5b\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 758f3262d42193071c0db52dc910ae5b\\nIssued At: 2026-10-10T11:20:50.009Z\\nExpiration Time: 2026-10-17T11:20:50.009Z\",\"expiresAt\":\"2026-10-10T11:30:50.009Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/sources/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 758f3262d42193071c0db52dc910ae5b\\nIssued At: 2026-10-10T11:20:50.009Z\\nExpiration Time: 2026-10-17T11:20:50.009Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "17b17707-59f3-49bf-9c5d-e737923cdefd",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:50 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [
+        "Connect your wallet to create a source."
+      ],
+      "states": []
+    },
+    {
+      "url": "/debate/interpretations/create",
+      "screenshot": "sitemap/shots/debate-interpretations-create.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/interpretations/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "4d1e1085-3821-4b32-adb0-8f78cf394967",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:50 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/interpretations/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "2446fe5f-7660-4865-b94a-96d33b46194b",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:50 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/interpretations/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "5b4b166a-2ee2-4371-aad6-a56519602d97",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:51 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"c627d2cfe0fcf42d9f2bbfdd4313df02\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: c627d2cfe0fcf42d9f2bbfdd4313df02\\nIssued At: 2026-10-10T11:20:51.445Z\\nExpiration Time: 2026-10-17T11:20:51.445Z\",\"expiresAt\":\"2026-10-10T11:30:51.445Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/interpretations/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: c627d2cfe0fcf42d9f2bbfdd4313df02\\nIssued At: 2026-10-10T11:20:51.445Z\\nExpiration Time: 2026-10-17T11:20:51.445Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "ba1ae8f8-6957-446d-bf86-8387fdb061cf",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:51 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [
+        "Connect your wallet to create an interpretation."
+      ],
+      "states": []
+    },
+    {
+      "url": "/debate/evidences/create",
+      "screenshot": "sitemap/shots/debate-evidences-create.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/evidences/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "f1331a25-f541-4901-a3b3-74b7d5cfa961",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:52 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/evidences/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "bd3a18eb-e5c5-4962-85da-4f3274a1b513",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:52 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/evidences/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "92be42a1-0648-4825-8231-44495105c3fc",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:52 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"0b51db5ac5d88f8a81aa6065696940f0\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 0b51db5ac5d88f8a81aa6065696940f0\\nIssued At: 2026-10-10T11:20:52.936Z\\nExpiration Time: 2026-10-17T11:20:52.936Z\",\"expiresAt\":\"2026-10-10T11:30:52.936Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/evidences/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 0b51db5ac5d88f8a81aa6065696940f0\\nIssued At: 2026-10-10T11:20:52.936Z\\nExpiration Time: 2026-10-17T11:20:52.936Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "41a6ae49-d1bd-41d3-a721-16c73b049638",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:52 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [
+        "Connect your wallet to create an evidence."
+      ],
+      "states": []
+    },
+    {
+      "url": "/debate/contraarguments/create",
+      "screenshot": "sitemap/shots/debate-contraarguments-create.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/contraarguments/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "e3caaab3-2ee3-4a2d-9c6f-9b256d592a16",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:53 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/contraarguments/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "5c870f04-952c-4b32-8308-043f9d5573af",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:53 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/contraarguments/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "f295e9a5-8748-4cfc-a9d7-757cfa607738",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:54 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"76910300327b3a1c9ac1f9d884faa036\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 76910300327b3a1c9ac1f9d884faa036\\nIssued At: 2026-10-10T11:20:54.395Z\\nExpiration Time: 2026-10-17T11:20:54.395Z\",\"expiresAt\":\"2026-10-10T11:30:54.395Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/contraarguments/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: 76910300327b3a1c9ac1f9d884faa036\\nIssued At: 2026-10-10T11:20:54.395Z\\nExpiration Time: 2026-10-17T11:20:54.395Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "66b30000-79b0-4dbb-8285-98e82b78b23c",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:54 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [
+        "Connect your wallet to create a contraargument."
+      ],
+      "states": []
+    },
+    {
+      "url": "/debate/fallacies/create",
+      "screenshot": "sitemap/shots/debate-fallacies-create.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/fallacies/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "0a11b0c9-0e7c-4792-bc5c-8507a85d0170",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:55 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/fallacies/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "cab51696-283d-4ddc-b76f-f2fb57846590",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:55 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/fallacies/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "20e3ac97-5f01-43e3-a08c-c8d9610a8c89",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:55 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"b6cb0165b25f54335043ecdb55906fbe\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: b6cb0165b25f54335043ecdb55906fbe\\nIssued At: 2026-10-10T11:20:55.821Z\\nExpiration Time: 2026-10-17T11:20:55.821Z\",\"expiresAt\":\"2026-10-10T11:30:55.821Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/fallacies/create",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: b6cb0165b25f54335043ecdb55906fbe\\nIssued At: 2026-10-10T11:20:55.821Z\\nExpiration Time: 2026-10-17T11:20:55.821Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "4d4d680e-c7a9-4656-9778-fb5f9f18b272",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:55 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [
+        "Connect your wallet to create a fallacy."
+      ],
+      "states": []
+    },
+    {
+      "url": "/debate/provenance",
+      "screenshot": "sitemap/shots/debate-provenance.png",
+      "http": [
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/provenance",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "06172da3-0c84-489a-8588-68a7ca16c448",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:56 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/auth/me",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/provenance",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "87704bd3-f84f-4326-a365-e54503b5578d",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:56 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"No active session\"}"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/content",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/provenance",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "382807ff-8d9a-4b50-9cbb-63c48d2007b9",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:56 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"argument\":{\"title\":\"Carbon border taxes, audited\",\"description\":\"Current reporting on climate and the economy, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Clima\",\"Economy\",\"Policy\",\"Science\",\"Trade\"]},\"reportingCard\":{\"title\":\"Reporting\",\"tabs\":[{\"id\":\"Clima\",\"label\":\"Clima\",\"order\":0,\"items\":[{\"id\":\"33c84ebe-6f7d-4100-9fa0-0100f30d128f\",\"title\":\"Climate sensitivity is a range, not a number\",\"labels\":[\"Clima\",\"Science\"],\"type\":\"text\",\"author\":\"L. Brandt\",\"date\":\"2024-06-18\",\"authorAddress\":\"0x1111111111111111111111111111111111111111\",\"openCount\":67,\"paragraphs\":[{\"id\":\"1cb8e607-f3a7-4614-a44c-da704f1b6780\",\"text\":\"Equilibrium climate sensitivity — how much the surface eventually warms after atmospheric carbon dioxide doubles — has been argued over for four decades. The 1979 Charney Report put it at 1.5 to 4.5 degrees Celsius. The 2013 IPCC assessment kept that same range after a review widely criticised for underweighting palaeoclimate evidence. The 2021 assessment moved to a best estimate of 3 degrees, with a likely range of 2.5 to 4.\",\"auditItemIds\":[\"17dae7c0-edb0-4f2b-8611-4a72d5dd53d1\",\"6625b27f-1e90-4615-a444-a1070fa38233\",\"0eb94504-0b6b-4070-931c-10e2ad242af2\"]},{\"id\":\"b0725e6e-56d0-4e3d-bc20-9f193c159410\",\"text\":\"Three sources of uncertainty dominate. Cloud feedback is the first: low-level marine stratocumulus reflect sunlight, and whether those clouds thin or thicken as the planet warms is hard to observe directly. Aerosol forcing is the second, because the cooling effect of industrial particulates is inferred rather than measured, and small changes in that inference shift how much warming is attributed to greenhouse gases. Ocean heat uptake is the third, since it delays the surface response and makes the instrumental record an imperfect constraint.\",\"auditItemIds\":[\"17dae7c0-edb0-4f2b-8611-4a72d5dd53d1\",\"6625b27f-1e90-4615-a444-a1070fa38233\",\"2746480b-1cfa-4650-954c-43283dea532f\"]},{\"id\":\"401b5cc3-b16f-41b1-be57-d1d77830ff94\",\"text\":\"Palaeoclimate estimates matter because they integrate the system over centuries rather than decades. Reconstruct the Last Glacial Maximum and the inferred sensitivity tends to sit higher than when only the modern record is used. Reconciling the two remains open.\",\"auditItemIds\":[\"17dae7c0-edb0-4f2b-8611-4a72d5dd53d1\",\"6625b27f-1e90-4615-a444-a1070fa38233\",\"a7d6e08d-8071-4a2d-b8c5-d4a88d1a9c6c\"]},{\"id\":\"a35338c2-1e3f-433d-aad4-ba7b738895a8\",\"text\":\"The practical consequence is that policy thresholds are being set against a distribution rather than a point. A world that warms by 2 degrees and one that warms by 4 are not variations on a single scenario: they imply different coastlines, different agricultural zones and different extinction pressures. Framed as holding to 1.5, the target quietly assumes the low tail of a distribution whose upper tail has not been excluded.\",\"auditItemIds\":[\"a7d6e08d-8071-4a2d-b8c5-d4a88d1a9c6c\",\"37adaa72-5215-4edb-a297-08bfa9b46623\",\"a5279f38-dca3-4921-aad8-9c6b049ce5c0\",\"95b87e22-bdc7-4761-a186-a3a4488caba9\"]},{\"id\":\"0264bc19-b7a3-4dff-8cde-e08d11ac4bfe\",\"text\":\"The honest summary is that the uncertainty has narrowed, it has not closed, and the residual width sits in exactly the processes that determine how bad the high end would be.\",\"auditItemIds\":[\"a7d6e08d-8071-4a2d-b8c5-d4a88d1a9c6c\",\"580d58a3-779b-4d98-9970-021478894e6e\",\"dfa621c5-cde8-4468-9249-a341e98a5a36\"]}]},{\"id\":\"4f8c2a91-5d3e-4b7c-9a1f-6e0c8b2d4f37\",\"title\":\"What the IPCC Sixth Assessment Report found\",\"labels\":[\"Clima\",\"Science\"],\"type\":\"video\",\"videoUrl\":\"https://www.youtube.com/watch?v=yzmTNoiOtiY\",\"author\":\"IPCC\",\"date\":\"2021-06-30\",\"authorAddress\":\"0x4444444444444444444444444444444444444444\",\"openCount\":50,\"paragraphs\":[{\"id\":\"b1c9e4a2-7f60-4d8e-9a3c-5b7d1e2f4a60\",\"text\":\"The Sixth Assessment Report consolidates three working groups and the Synthesis Report into a single statement of what is known about \n…[truncated 54649 chars]"
+        },
+        {
+          "method": "GET",
+          "url": "http://localhost:3000/api/content",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/provenance",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": null,
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "29c90b57-9193-4de8-91b0-c862339ae8e1",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:56 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"argument\":{\"title\":\"Carbon border taxes, audited\",\"description\":\"Current reporting on climate and the economy, read against a structured audit of the argument — counterarguments, fallacies, evidence, sources and interpretation.\",\"labels\":[\"Clima\",\"Economy\",\"Policy\",\"Science\",\"Trade\"]},\"reportingCard\":{\"title\":\"Reporting\",\"tabs\":[{\"id\":\"Clima\",\"label\":\"Clima\",\"order\":0,\"items\":[{\"id\":\"33c84ebe-6f7d-4100-9fa0-0100f30d128f\",\"title\":\"Climate sensitivity is a range, not a number\",\"labels\":[\"Clima\",\"Science\"],\"type\":\"text\",\"author\":\"L. Brandt\",\"date\":\"2024-06-18\",\"authorAddress\":\"0x1111111111111111111111111111111111111111\",\"openCount\":67,\"paragraphs\":[{\"id\":\"1cb8e607-f3a7-4614-a44c-da704f1b6780\",\"text\":\"Equilibrium climate sensitivity — how much the surface eventually warms after atmospheric carbon dioxide doubles — has been argued over for four decades. The 1979 Charney Report put it at 1.5 to 4.5 degrees Celsius. The 2013 IPCC assessment kept that same range after a review widely criticised for underweighting palaeoclimate evidence. The 2021 assessment moved to a best estimate of 3 degrees, with a likely range of 2.5 to 4.\",\"auditItemIds\":[\"17dae7c0-edb0-4f2b-8611-4a72d5dd53d1\",\"6625b27f-1e90-4615-a444-a1070fa38233\",\"0eb94504-0b6b-4070-931c-10e2ad242af2\"]},{\"id\":\"b0725e6e-56d0-4e3d-bc20-9f193c159410\",\"text\":\"Three sources of uncertainty dominate. Cloud feedback is the first: low-level marine stratocumulus reflect sunlight, and whether those clouds thin or thicken as the planet warms is hard to observe directly. Aerosol forcing is the second, because the cooling effect of industrial particulates is inferred rather than measured, and small changes in that inference shift how much warming is attributed to greenhouse gases. Ocean heat uptake is the third, since it delays the surface response and makes the instrumental record an imperfect constraint.\",\"auditItemIds\":[\"17dae7c0-edb0-4f2b-8611-4a72d5dd53d1\",\"6625b27f-1e90-4615-a444-a1070fa38233\",\"2746480b-1cfa-4650-954c-43283dea532f\"]},{\"id\":\"401b5cc3-b16f-41b1-be57-d1d77830ff94\",\"text\":\"Palaeoclimate estimates matter because they integrate the system over centuries rather than decades. Reconstruct the Last Glacial Maximum and the inferred sensitivity tends to sit higher than when only the modern record is used. Reconciling the two remains open.\",\"auditItemIds\":[\"17dae7c0-edb0-4f2b-8611-4a72d5dd53d1\",\"6625b27f-1e90-4615-a444-a1070fa38233\",\"a7d6e08d-8071-4a2d-b8c5-d4a88d1a9c6c\"]},{\"id\":\"a35338c2-1e3f-433d-aad4-ba7b738895a8\",\"text\":\"The practical consequence is that policy thresholds are being set against a distribution rather than a point. A world that warms by 2 degrees and one that warms by 4 are not variations on a single scenario: they imply different coastlines, different agricultural zones and different extinction pressures. Framed as holding to 1.5, the target quietly assumes the low tail of a distribution whose upper tail has not been excluded.\",\"auditItemIds\":[\"a7d6e08d-8071-4a2d-b8c5-d4a88d1a9c6c\",\"37adaa72-5215-4edb-a297-08bfa9b46623\",\"a5279f38-dca3-4921-aad8-9c6b049ce5c0\",\"95b87e22-bdc7-4761-a186-a3a4488caba9\"]},{\"id\":\"0264bc19-b7a3-4dff-8cde-e08d11ac4bfe\",\"text\":\"The honest summary is that the uncertainty has narrowed, it has not closed, and the residual width sits in exactly the processes that determine how bad the high end would be.\",\"auditItemIds\":[\"a7d6e08d-8071-4a2d-b8c5-d4a88d1a9c6c\",\"580d58a3-779b-4d98-9970-021478894e6e\",\"dfa621c5-cde8-4468-9249-a341e98a5a36\"]}]},{\"id\":\"4f8c2a91-5d3e-4b7c-9a1f-6e0c8b2d4f37\",\"title\":\"What the IPCC Sixth Assessment Report found\",\"labels\":[\"Clima\",\"Science\"],\"type\":\"video\",\"videoUrl\":\"https://www.youtube.com/watch?v=yzmTNoiOtiY\",\"author\":\"IPCC\",\"date\":\"2021-06-30\",\"authorAddress\":\"0x4444444444444444444444444444444444444444\",\"openCount\":50,\"paragraphs\":[{\"id\":\"b1c9e4a2-7f60-4d8e-9a3c-5b7d1e2f4a60\",\"text\":\"The Sixth Assessment Report consolidates three working groups and the Synthesis Report into a single statement of what is known about \n…[truncated 54649 chars]"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/nonce",
+          "status": 200,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/provenance",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"address\":\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"chainId\":31337}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "acab4925-04ff-44e6-85fb-6275c691bcd2",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:57 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"nonce\":\"ef58c91c4dc5f67fcf36fdeb367a8928\",\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: ef58c91c4dc5f67fcf36fdeb367a8928\\nIssued At: 2026-10-10T11:20:57.304Z\\nExpiration Time: 2026-10-17T11:20:57.304Z\",\"expiresAt\":\"2026-10-10T11:30:57.304Z\"}"
+        },
+        {
+          "method": "POST",
+          "url": "http://localhost:3000/api/auth/verify",
+          "status": 401,
+          "reqHeaders": {
+            "sec-ch-ua-platform": "\"macOS\"",
+            "referer": "http://localhost:3000/debate/provenance",
+            "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+            "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "reqBody": "{\"message\":\"localhost:3000 wants you to sign in with your Ethereum account:\\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\\n\\nSign in to Epistimology with your Ethereum account.\\n\\nURI: http://localhost:3000\\nVersion: 1\\nChain ID: 31337\\nNonce: ef58c91c4dc5f67fcf36fdeb367a8928\\nIssued At: 2026-10-10T11:20:57.304Z\\nExpiration Time: 2026-10-17T11:20:57.304Z\",\"signature\":\"0xababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab\"}",
+          "cookies": {},
+          "resHeaders": {
+            "transfer-encoding": "chunked",
+            "x-request-id": "090cc723-f2ce-4458-8108-c68e2cf2ee2c",
+            "keep-alive": "timeout=5",
+            "date": "Sat, 10 Oct 2026 11:20:57 GMT",
+            "content-type": "application/json",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+            "connection": "keep-alive"
+          },
+          "setCookies": [],
+          "resBody": "{\"error\":\"Invalid wallet signature\"}"
+        }
+      ],
+      "auth": [],
+      "states": [
+        {
+          "name": "Copy article ID",
+          "screenshot": "sitemap/shots/debate-provenance-s0.png"
+        },
+        {
+          "name": "Copy Fallacies item ID",
+          "screenshot": "sitemap/shots/debate-provenance-s1.png"
+        },
+        {
+          "name": "Copy Contraargument item ID",
+          "screenshot": "sitemap/shots/debate-provenance-s2.png"
+        },
+        {
+          "name": "Copy Interpretation item ID",
+          "screenshot": "sitemap/shots/debate-provenance-s3.png"
+        },
+        {
+          "name": "Copy Evidences item ID",
+          "screenshot": "sitemap/shots/debate-provenance-s4.png"
+        },
+        {
+          "name": "Copy Sources item ID",
+          "screenshot": "sitemap/shots/debate-provenance-s5.png"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "/",
+      "to": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e#modal-A-fairy-tale-built-around-stolen-dreams"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/debate/contraarguments/create"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/debate/create"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/debate/evidences/create"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/debate/fallacies/create"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/debate/interpretations/create"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/debate/provenance"
+    },
+    {
+      "from": "/debate/argument/266101de-d1dc-448a-9545-0c2597425e6e",
+      "to": "/debate/sources/create"
+    },
+    {
+      "from": "/debate/contraarguments/create",
+      "to": "/"
+    },
+    {
+      "from": "/debate/create",
+      "to": "/"
+    },
+    {
+      "from": "/debate/evidences/create",
+      "to": "/"
+    },
+    {
+      "from": "/debate/fallacies/create",
+      "to": "/"
+    },
+    {
+      "from": "/debate/interpretations/create",
+      "to": "/"
+    },
+    {
+      "from": "/debate/provenance",
+      "to": "/"
+    },
+    {
+      "from": "/debate/sources/create",
+      "to": "/"
+    }
+  ]
+}
