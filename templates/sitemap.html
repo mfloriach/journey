@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>sidemap</title>
+<title>sitemap</title>
 <style>
   html, body { margin: 0; height: 100%; overflow: hidden; background: #111; color: #eee; font-family: system-ui, sans-serif; }
   #bar { display: flex; gap: 12px; align-items: center; padding: 8px 12px; }
@@ -25,7 +25,7 @@
 </head>
 <body>
 <div id="bar">
-  <h1>sidemap</h1>
+  <h1>sitemap</h1>
   <button id="fit">fit</button>
   <select id="f-endpoint" title="show only pages calling this endpoint"><option value="">endpoint: all</option></select>
   <select id="f-auth" title="pages by wallet need">
@@ -33,7 +33,7 @@
     <option value="public">public</option>
     <option value="wallet">needs wallet</option>
   </select>
-  <span id="status">loading sidemap.json…</span>
+  <span id="status">loading sitemap.json…</span>
   <span class="hint">drag node: move · drag background: pan · wheel: zoom · click node: HTTP calls + trace path · esc: clear</span>
 </div>
 <aside id="drawer" hidden>
@@ -42,7 +42,7 @@
 </aside>
 <input id="pick" type="file" accept="application/json" hidden>
 <canvas id="c"></canvas>
-<script src="./sidemap-data.js"></script>
+<script src="./sitemap-data.js"></script>
 <script>
 const W = 280, IH = 175, LH = 30, GX = 170, GY = 80, PAD = 80;
 const cv = document.getElementById("c");
@@ -87,7 +87,7 @@ function applyFilters() {
 
 async function load() {
   if (window.GRAPH) return window.GRAPH; // written by shoot.ts, works on file://
-  for (const p of ["../../../sidemap.json", "./sidemap.json", "/sidemap.json"]) {
+  for (const p of ["./sitemap.json", "/sitemap.json"]) {
     try {
       const r = await fetch(p);
       if (r.ok) return await r.json();
@@ -329,7 +329,7 @@ function loadImgs() {
     const im = new Image();
     im.onload = () => { imgs.set(u, im); res(); };
     im.onerror = () => res();
-    im.src = "../shots/" + shot;
+    im.src = "./shots/" + shot;
   })));
 }
 
@@ -395,7 +395,7 @@ document.getElementById("f-auth").onchange = (e) => { fAuth = e.target.value; ap
 (async () => {
   const g = await load();
   if (!g) {
-    status("no graph data — pick sidemap.json:");
+    status("no graph data — pick sitemap.json:");
     const pick = document.getElementById("pick");
     pick.hidden = false;
     pick.onchange = async () => start(JSON.parse(await pick.files[0].text()));

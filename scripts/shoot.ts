@@ -1,14 +1,38 @@
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { chromium, type Locator } from "@playwright/test";
-import { walletStubScript } from "../../e2e/wallet-stub.js";
-import { loginViaSiwe } from "../../e2e/helpers.js";
+
+// ponytail: optional host hooks — crawl works without them (public mode).
+// Target apps may provide e2e/wallet-stub.js (exports walletStubScript: string)
+// and e2e/helpers.js (exports loginViaSiwe(page)). Missing = warn + continue.
+const cwd = process.cwd();
+const walletStubPath = `${cwd}/e2e/wallet-stub.js`;
+const helpersPath = `${cwd}/e2e/helpers.js`;
+let walletStubScript = "";
+try {
+  if (existsSync(walletStubPath))
+    walletStubScript =
+      ((await import(walletStubPath).catch(() => ({}))) as any)
+        .walletStubScript ?? "";
+} catch {
+  /* public crawl without stub */
+}
+let loginViaSiwe: ((page: any) => Promise<void>) | null = null;
+try {
+  if (existsSync(helpersPath))
+    loginViaSiwe =
+      ((await import(helpersPath).catch(() => ({}))) as any).loginViaSiwe ??
+      null;
+} catch {
+  /* submits skipped, warned once at runtime */
+}
 
 const BASE = process.env.BASE_URL ?? "http://localhost:3000";
 const WALLET = process.env.WALLET ?? ""; // "connect": stub + click; "full": + real SIWE login + form submits (writes!)
 const walletOn = WALLET === "connect" || WALLET === "full";
-const URLS_JSON = "sidemap.json";
-const SHOTS_DIR = ".opencode/commands/shots";
-const VIEW_DIR = ".opencode/commands/view";
+const OUT_DIR = "sitemap";
+const URLS_JSON = `${OUT_DIR}/sitemap.json`;
+const SHOTS_DIR = `${OUT_DIR}/shots`;
+const DATA_FILE = `${OUT_DIR}/sitemap-data.js`;
 
 const slug = (url: string) =>
   url
@@ -17,7 +41,16 @@ const slug = (url: string) =>
     .replace(/^-|-$/g, "") || "index";
 
 async function main() {
-  const parsed = JSON.parse(readFileSync(URLS_JSON, "utf8"));
+  mkdirSync(SHOTS_DIR, { recursive: true });
+  mkdirSync(OUT_DIR, { recursive: true });
+  // ponytail: first run has no seed file — start at "/" and discover from links.
+  let parsed: any = ["/"];
+  try {
+    if (existsSync(URLS_JSON))
+      parsed = JSON.parse(readFileSync(URLS_JSON, "utf8"));
+  } catch {
+    parsed = ["/"];
+  }
   const raw: (string | { url: string })[] = Array.isArray(parsed)
     ? parsed
     : parsed.nodes;
@@ -51,7 +84,7 @@ async function main() {
   const ordered = bfsOrder(urls);
 
   mkdirSync(SHOTS_DIR, { recursive: true });
-  mkdirSync(VIEW_DIR, { recursive: true });
+  mkdirSync(OUT_DIR, { recursive: true });
   const browser = await chromium.launch();
   const page = await browser
     .newContext({ baseURL: BASE })
@@ -136,7 +169,7 @@ async function main() {
       })
       .catch(() => {}); // never break the chain
   });
-  if (walletOn) await page.addInitScript(walletStubScript); // ponytail: raw JS string — a TS closure breaks under tsx (emits in-page-undefined `__name`)
+  if (walletOn && walletStubScript) await page.addInitScript(walletStubScript); // ponytail: raw JS string — a TS closure breaks under tsx (emits in-page-undefined `__name`)
   const toPattern = (u: string) =>
     new RegExp("^" + u.replace(/\[.*?\]/g, "[^/]+") + "$");
   const patterns = urls.map((u) => ({ url: u, re: toPattern(u) }));
@@ -359,18 +392,24 @@ async function main() {
     // post-submit navigations. Writes test records — never default.
     if (WALLET === "full") {
       if (!jwt) {
-        try {
-          await loginViaSiwe(page);
-          jwt = true;
-        } catch {
+        if (!loginViaSiwe) {
           if (!loginWarned) {
             loginWarned = true;
-            console.log(
-              "SIWE login failed — submits skipped (needs seeded DB)",
-            );
+            console.log("no e2e/helpers.js loginViaSiwe — submits skipped");
           }
-          /* creators 401 without JWT; submits below become no-ops */
-        }
+        } else
+          try {
+            await loginViaSiwe(page);
+            jwt = true;
+          } catch {
+            if (!loginWarned) {
+              loginWarned = true;
+              console.log(
+                "SIWE login failed — submits skipped (needs seeded DB)",
+              );
+            }
+            /* creators 401 without JWT; submits below become no-ops */
+          }
       }
       if (jwt) {
         const mark = traffic.length;
@@ -458,7 +497,7 @@ async function main() {
     console.log(`wallet connected on ${walletHits}/${urls.length} pages`);
   writeFileSync(URLS_JSON, JSON.stringify(graph, null, 2) + "\n");
   writeFileSync(
-    `${VIEW_DIR}/sidemap-data.js`,
+    DATA_FILE,
     `window.GRAPH = ${JSON.stringify(graph, null, 2)};\n`,
   );
 }

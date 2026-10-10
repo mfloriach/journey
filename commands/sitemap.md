@@ -1,5 +1,5 @@
 ---
-description: Create a sidemap of the application
+description: Create a sitemap of the application
 ---
 
 Build and run a Playwright-based crawler that explores the application, captures screenshots, records page states and navigation relationships, and generates an interactive left-to-right sitemap.
@@ -16,8 +16,8 @@ Output structure
 Create the following directory structure at the project root:
 
 sitemap/
-├── sidemap.html
-├── sidemap-data.js
+├── sitemap.html
+├── sitemap-data.js
 └── shots/
 ├── <page-id>.png
 ├── <page-id>-s1.png
@@ -25,8 +25,8 @@ sitemap/
 
 Use the existing sitemap/ directory if it already exists. Do not delete unrelated files.
 
-sidemap.html: interactive visualization.
-sidemap-data.js: graph data consumed by the visualization.
+sitemap.html: interactive visualization.
+sitemap-data.js: graph data consumed by the visualization.
 shots/: screenshots referenced by graph nodes and states.
 
 The HTML must load the graph data from the correct relative path. Support both opening the HTML directly with file:// and serving the repository over HTTP, without requiring a backend service.
@@ -121,7 +121,7 @@ Continue BFS from newly discovered destinations.
 
 5. Interactive visualization
 
-Generate sitemap/sidemap.html as a self-contained visualization using HTML, CSS, and JavaScript. Prefer native Canvas or an already installed graph library; avoid adding dependencies without a clear need.
+Generate sitemap/sitemap.html as a self-contained visualization using HTML, CSS, and JavaScript. Prefer native Canvas or an already installed graph library; avoid adding dependencies without a clear need.
 
 Layout:
 
