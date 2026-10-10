@@ -35,6 +35,7 @@
     }
   },
   "scripts": {
+    "postinstall": "node ./bin/journey.js",
     "test": "node --test"
   },
   "type": "commonjs",

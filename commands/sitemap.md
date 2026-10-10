@@ -38,7 +38,7 @@ Workflow
 Before crawling:
 
 Identify the application framework, package manager, start command, base URL, and available test configuration.
-Inspect existing Playwright setup, wallet mocks, and .opencode/commands/scripts/shoot.ts.
+Inspect existing Playwright setup, wallet mocks, and .opencode/scripts/shoot.ts.
 Reuse existing helpers and conventions where possible.
 Determine whether the application is already running. Start it only if necessary and practical.
 Verify that the configured base URL is reachable before beginning.
