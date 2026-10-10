@@ -1,0 +1,19 @@
+{
+  "name": "journey",
+  "version": "1.0.0",
+  "description": "Generate an interactive sitemap using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "files": [
+    "dist/",
+    "templates/",
+    "commands/"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
